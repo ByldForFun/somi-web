@@ -1,0 +1,16 @@
+# Keep the config file out of git if you want
+# config.js
+
+# Alternatively, you can keep config.js in git but obfuscated
+# and create a local config-local.js that overrides it
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

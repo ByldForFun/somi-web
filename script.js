@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData();
             formData.append('email', email);
             
-            const response = await fetch('https://script.google.com/macros/s/AKfycbzlk9SfRy29sEGTkdXo-k7yw89OUQUOg5hh7iUo-Yse5rluznw93CWooYcDoY3CgavZ/exec', {
+            const response = await fetch(window.APP_CONFIG.apiEndpoint, {
                 method: 'POST',
                 body: formData
             });
